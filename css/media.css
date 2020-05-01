@@ -1,0 +1,336 @@
+@media(max-width:1450px){
+
+}
+@media(max-width:1199px){
+.connex_fix ul {
+    margin-top: 55px;
+}
+    .connex_fix ul li {
+    margin-bottom: 17px;
+}
+    .connex_fix ul li:nth-child(7) {
+    margin-top: 50px;
+}
+    .connex_search h2 {
+    margin-top: 55px;
+}
+    .connex_inner {
+    padding-left: 268px;
+}
+    .price_prest {
+    margin-left: 50px;
+}
+  .price_prix {
+    margin-left: 50px;
+}
+    .price_prest1 {
+    width: 99%;
+/*    margin-left: 80px;*/
+}
+    .final_all {
+    display: inline-block;
+    width: 47%;
+}
+    .width_less {
+    width: 21% !important;
+}
+.final_low {
+    margin-left: 27px;
+}
+    .connex_search .con_top .form-control {
+    width: 65%;
+}
+    th{
+            padding: 0px 9px 0px 16px;
+    }
+    .first_arrow {
+    margin-left: 5px;
+}
+        .tr_lower{
+        height: 40px;
+    }
+.price_prest1 {
+    width: 80%;
+    margin-left: 8%;
+}
+    .price_prest {
+    width: 45%;
+}
+    .price_prix {
+    margin-left: 75px;
+    width: 22%;
+}
+    .create_drop {
+    width: 47%;
+}
+} 
+@media(max-width:991px) {
+.connex_fix {
+    width: 215px;
+}
+    .connex_inner {
+    padding-left: 245px;
+ padding-right: 30px;
+}
+    .connex_fix ul li a{
+        font-size: 18px;
+    }
+    .connex_fix ul li:nth-child(7) {
+    margin-top: 65px;
+}
+    .note1 .form-group .form-control{
+        height: 215px;
+    }
+    .connex_search h2 {
+    margin-bottom: 25px;
+}
+/*
+    .drop_inner {
+    margin-bottom: 33px;
+}
+*/
+    .valid_btn {
+    margin-top: 45px;
+}
+    .note2 .form-group .form-control{
+        height: auto;
+    }
+    .connex_search .con_block .form-control {
+    width: 345px;
+}
+    .list_btn button {
+    padding: 9px 45px;
+}
+    .list_inner .dropdown {
+    width: 66%;
+}
+    .doc_gen h2{
+        font-size: 34px;
+    }
+        .telecharger ul li:nth-child(3){
+        margin-right: 0;
+    }
+    .final_all {
+    width: 45%;
+}
+    .width_less {
+    width: 45% !important;
+}
+    .final_low1{
+        margin-left: 0;
+    }
+    .final_low {
+    margin-left: 38px;
+}
+    .connex_search .con_top .form-control {
+    width: 75%;
+}
+    th {
+    padding: 0px 0px 0px 11px;
+}
+    .con_btn button {
+    padding: 6px 15px;
+
+}
+.price_prest {
+    width: 45%;
+}
+    .price_prix {
+    margin-left: 25px;
+    width: 24%;
+}
+    .price_prest1 {
+    width: 80%;
+    margin-left: 14%;
+}
+    .create_drop {
+    width: 45%;
+}
+    .tele_more{
+    margin-left: 0%;
+        width: 100%;
+}
+.more_left {
+    margin-left: 0%;
+    width: 100%;
+}
+    .mor_left {
+    margin-left: 0%;
+}
+    .final_address {
+    display: block;
+
+}
+    .create_drop {
+    width: 100%;
+}
+    .adress_more{
+        width: 100%;
+    }
+    .drop_next{
+        width: 45%;
+    }
+    .creat_btn1 button {
+    margin-right: 5%;
+}
+}
+@media(max-width:767px){  
+ .hamburger {
+    display: block;
+}
+    .connex_fix{
+        display: none;
+    }
+    .connex_inner{
+        padding: 25px;
+    }
+.con_btn button {
+    margin-right: 70px;
+    padding: 5px 22px;
+}
+    .connex_search .con_block .form-control {
+    width: 305px;
+}
+    .con_btn a{
+        display: block;
+        float: left;
+    }
+.price_prest1 {
+    width: 74%;
+    margin: 0 auto 0px 74px;
+}
+}
+@media(max-width:560px){
+    .drop_inner .dropdown {
+    width: 365px;
+    }
+    .connex_search {
+    padding-bottom: 30px;
+}
+    .con_btn button{
+        float: left;
+        display: block;
+    }
+    .connex_2 .form-group{
+        display: block;
+    }
+    .con_btn {
+     display: block; 
+    margin-bottom: 80px;
+}
+    label {
+    font-size: 16px;
+}
+    .list_inner .dropdown {
+    width: 65%;
+}
+    .list_btn button {
+    padding: 9px 30px;
+}
+    .telecharger ul {
+    margin-bottom: 40px;
+}
+    .telecharger ul li:nth-child(3) {
+    display: block;
+    width: 100%;
+}
+    .telecharger span {
+    width: 100%;
+    float: right;
+}
+    .telecharger ul li a {
+    margin-left: 8px;
+}
+    .telecharger {
+    margin: 15px 0px;
+}
+    .final_all {
+    width: 100%;
+}
+    .final_left {
+    margin-left: 0px;
+}
+    .width_less {
+    width: 100% !important;
+}
+    .final_low {
+    margin-left: 0px;
+}
+    .contact_inner h2 {
+    padding-bottom: 30px;
+}
+    .contact_inner {
+    padding-bottom: 30px;
+}
+    .create_drop {
+        width: 100%;
+    }
+    .price_prest{
+        width: 77%;
+    }
+    .price_prix{
+      width: 77%;
+    margin-left: 75px;
+    }
+    .price_prest1 {
+    width: 77%;
+    margin-left: 75px;
+}
+    .h_small{
+        font-size: 32px;
+    }
+    .con_zer{
+        margin-bottom: 30px;
+    }
+    .final_btn button {
+   margin-right: 2%;
+}
+    .note2 .form-group .form-control {
+    padding-bottom: 15px;
+}
+}
+@media(max-width:414px){
+.drop_inner .dropdown {
+    width: 270px;
+}
+    .connex_search .con_block .form-control {
+    width: 220px;
+}
+    label {
+    font-size: 15px;
+}
+    .doc_gen h2 {
+    font-size: 25px;
+
+}
+    .list_btn {
+     display:block; 
+    float: left;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+    .contact_inner h2{
+        font-size: 30px;
+    }
+    .connex_search h2{
+        font-size: 30px;
+
+    }
+    .price_prest {
+    width: 68%;
+}
+    .price_prix {
+ width: 68%;
+}
+       .h_small{
+        font-size: 24px !important;
+               margin-bottom: 15px !important;
+    }
+    .price_prest1 {
+    width: 68%;
+    margin-left: 75px;
+}
+}
+@media(max-width:320px){
+
+}

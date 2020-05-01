@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Connexion | Customer List</title>
+
+    <!-- Bootstrap -->
+   <link href="img/logoblack1.png" rel="icon" type="icon/image">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--    <link href="css/font-awesome.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/hamburgers.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <section class="connex boxs">
+        <button class="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+
+        <div class="sidenav" id="mySidenav">
+            <a href="create_customer.html" class="logo"><img src="img/logoblack.png" class="img-fluid" alt="logo"></a>
+            <ul class="navbar-nav menu">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Informations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">Notes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">Final car</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">Price</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">Documents generator</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">Cloud</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Back</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">Settings</a>
+                </li>
+            </ul>
+        </div>
+        <div class="connex_fix con_fixx boxs">
+
+            <div class="logo">
+                <a href="create_customer.html"><img src="img/logoblack.png" class="img-responsive"></a>
+            </div>
+            <ul>
+                <li><a href="Customer_list.html" class ="active">Customer list</a></li>
+                <li><a href="#">Réglages</a></li>
+            </ul>
+
+        </div>
+        <div class="connex_inner boxs">
+            <div class="connex_search  boxs">
+                <form>
+                    <div class="connex_2">
+                        <div class="form-group con_block">
+                            <input type="text" class="form-control" placeholder="Rechercher">
+                        </div>
+
+                        <div class="con_btn">
+                            <button type="submit">Create customer</button>
+                        </div>
+                    </div>
+                    <h2>Customer list</h2>
+                    <div class="customer_tabel">
+                         <div class="table-responsive">  
+                        <table id="myTable">
+                            <tr class ="tr_lower">
+
+ 
+                                <th>Nom<span class="first_arrow" onclick="sortTable(0)"><i class="fa fa-angle-down"></i></span><span class="first_arrow sec_arrow" onclick="sortTable(0)"><i class="fa fa-angle-up"></i></span></th>
+
+                                <th>Prénom<span class="first_arrow" onclick="sortTable(0)"><i class="fa fa-angle-down"></i></span><span class="first_arrow sec_arrow" onclick="sortTable(0)"><i class="fa fa-angle-up"></i></span></th>
+                                <th>Email</th>
+                                <th>Téléphone</th>
+                                <th>Statut<span class="first_arrow" onclick="sortTable(0)"><i class="fa fa-angle-down"></i></span><span class="first_arrow sec_arrow" onclick="sortTable(0)"><i class="fa fa-angle-up"></i></span></th>
+
+                            </tr>
+                            <tr>
+                                <td>orororo</td>
+                                <td>Haavisiusss</td>
+                                <td>jeanchel.picolororoo@gmail.com</td>
+                                <td>+33696976</td>
+                                <td>A rappeler</td>
+                            </tr>
+                            <tr>
+                                <td>Prorororo</td>
+                                <td>Haavisiusss</td>
+                                <td>jeanchel.picolororoo@gmail.com</td>
+                                <td>+33696976</td>
+                                <td>Attente client</td>
+                            </tr>
+                            <tr>
+                                <td>Plorororororo</td>
+                                <td>Haavisiusss</td>
+                                <td>jeanchel.picolororoo@gmail.com</td>
+                                <td>+33696976</td>
+                                <td>Attente client</td>
+                            </tr>
+                            <tr>
+                                <td>Picolorororororo</td>
+                                <td>Haavisiusss</td>
+                                <td>jeanchel.picolororoo@gmail.com</td>
+                                <td>+33696976</td>
+                                <td>Attente livraison</td>
+                            </tr>
+
+                            <tr>
+                                <td>Picolorororororo</td>
+                                <td>Haavisiusss</td>
+                                <td>jeanchel.picolororoo@gmail.com</td>
+                                <td>+33696976</td>
+                                <td>A rappeler</td>
+                            </tr>
+                            <tr>
+                                <td>Picolorororororo</td>
+                                <td>Haavisiusss</td>
+                                <td>jeanchel.picolororoo@gmail.com</td>
+                                <td>+33696976</td>
+                                <td>Livrée</td>
+                            </tr>
+                            <tr>
+                                <td>Picolorororororo</td>
+                                <td>Haavisiusss</td>
+                                <td>jeanchel.picolororoo@gmail.com</td>
+                                <td>+33696976</td>
+                                <td>Livrée</td>
+                            </tr>
+
+                        </table>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
